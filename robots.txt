@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://sandeepsandy25.github.io/Kakinada-Home-Sample-Collection//sitemap.xml
