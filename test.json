@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Complete Blood Count (CBC)",
+    "description": "Evaluate overall health and detect disorders like anemia, infection, leukemia.",
+    "price": 299,
+    "imageUrl": "https://images.unsplash.com/photo-1581093588401-fbb62a02d120?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 2,
+    "name": "Lipid Profile",
+    "description": "Measures cholesterol & triglycerides. Essential for heart health.",
+    "price": 499,
+    "imageUrl": "https://images.unsplash.com/photo-1576085898274-0e8d29c8a9c9?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 3,
+    "name": "Liver Function Test (LFT)",
+    "description": "Checks liver enzymes, proteins, bilirubin for liver health.",
+    "price": 549,
+    "imageUrl": "https://images.unsplash.com/photo-1504813184591-01572f98c85f?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 4,
+    "name": "Kidney Function Test (KFT)",
+    "description": "Evaluates creatinine, urea, uric acid – monitors kidney health.",
+    "price": 499,
+    "imageUrl": "https://images.unsplash.com/photo-1579154341098-e4e158cc7d55?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 5,
+    "name": "Thyroid Profile (T3, T4, TSH)",
+    "description": "Detect hyperthyroidism, hypothyroidism.",
+    "price": 399,
+    "imageUrl": "https://images.unsplash.com/photo-1530026406778-5cd2a2e21b0d?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 6,
+    "name": "Vitamin D (25-Hydroxy)",
+    "description": "Assess bone health & deficiency levels.",
+    "price": 799,
+    "imageUrl": "https://images.unsplash.com/photo-1584515933487-779824d29309?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 7,
+    "name": "HbA1c (Glycated Hemoglobin)",
+    "description": "Average blood sugar over 3 months – diabetes monitoring.",
+    "price": 399,
+    "imageUrl": "https://images.unsplash.com/photo-1579154204601-0154f4a0c6c6?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 8,
+    "name": "Iron Studies (Ferritin, Iron, TIBC)",
+    "description": "Evaluate iron deficiency or overload.",
+    "price": 699,
+    "imageUrl": "https://images.unsplash.com/photo-1614935986536-2b1f5e3e2b4a?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 9,
+    "name": "Dengue NS1 Antigen",
+    "description": "Early detection of dengue fever.",
+    "price": 599,
+    "imageUrl": "https://images.unsplash.com/photo-1584017911766-d451b3d6e2ca?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 10,
+    "name": "COVID-19 Antibody (IgG)",
+    "description": "Check past infection or vaccine response.",
+    "price": 449,
+    "imageUrl": "https://images.unsplash.com/photo-1584483766114-2cea6facdf57?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 11,
+    "name": "Vitamin B12 & Folate",
+    "description": "Detect deficiencies causing fatigue & neurological issues.",
+    "price": 899,
+    "imageUrl": "https://images.unsplash.com/photo-1576085898274-0e8d29c8a9c9?w=300&h=200&fit=crop"
+  },
+  {
+    "id": 12,
+    "name": "Comprehensive Wellness Package",
+    "description": "80+ parameters including CBC, LFT, KFT, Lipid, Thyroid, Vitamins.",
+    "price": 1999,
+    "imageUrl": "https://images.unsplash.com/photo-1579154341098-e4e158cc7d55?w=300&h=200&fit=crop"
+  }
+]

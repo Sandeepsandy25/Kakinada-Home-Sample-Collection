@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  background-color: #fefefe;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(8px);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+}
+
+.navbar-brand span {
+  background: linear-gradient(135deg, #0d6efd, #0b5ed7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-section {
+  background: linear-gradient(145deg, #ffffff 0%, #f1f9ff 100%);
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #0a58ca, #0099ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.divider {
+  width: 70px;
+  height: 3px;
+  background: linear-gradient(90deg, #0d6efd, #6ea8fe);
+  border-radius: 3px;
+  margin: 12px auto 0;
+}
+
+.test-card {
+  border: none;
+  border-radius: 1.5rem;
+  transition: all 0.3s ease;
+  background: #ffffff;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.03);
+  overflow: hidden;
+  height: 100%;
+  cursor: pointer; /* indicates clickable for modal */
+}
+
+.test-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 35px -12px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: contain; /* ensures full image visible without cropping */
+  background-color: #f8f9fa;
+  transition: transform 0.5s;
+  padding: 8px;
+}
+
+.test-card:hover .card-img-top {
+  transform: scale(1.02);
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.price-tag {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #0d6efd;
+}
+
+.float-whatsapp {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background-color: #25D366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 32px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.float-whatsapp:hover {
+  background-color: #128C7E;
+  transform: scale(1.05);
+  color: white;
+}
+
+.offer-banner .alert {
+  background: linear-gradient(115deg, #fff9e6, #fff4db);
+  border-left: 5px solid #ffc107;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    text-align: center;
+  }
+  .float-whatsapp {
+    width: 50px;
+    height: 50px;
+    font-size: 26px;
+  }
+  .price-tag {
+    font-size: 1.3rem;
+  }
+}
+
+.bg-opacity-10 {
+  background-color: rgba(13, 110, 253, 0.1);
+}
+
+#cartCount {
+  font-size: 0.7rem;
+  padding: 0.2rem 0.5rem;
+}
+
+.offcanvas-body .list-group-item {
+  background-color: #f8f9fa;
+  margin-bottom: 4px;
+  border-radius: 12px;
+}
+
+.alert-success {
+  background-color: #d1e7dd;
+  border-color: #badbcc;
+  color: #0f5132;
+  z-index: 9999;
+}
+
+.qty-minus, .qty-plus, .remove-item {
+  transition: 0.2s;
+}
+.qty-minus:hover, .qty-plus:hover {
+  background-color: #e2e6ea;
+}
+
+/* Modal image styling */
+#modalImage {
+  max-width: 100%;
+  border-radius: 12px;
+}
